@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Andika', sans-serif;
+    background-color: #F5F7FA;
+    
+}
+
+/*Главная секция*/
+
+.mainSection {
+    display: flex;
+    background-color: #fff;
+    flex-direction: row-reverse;
+    max-width: 880px;
+    margin: 3em auto;
+    padding: 3em;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*Главная секция контента*/
+
+.mainContentSection {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 0 0 0 3em;
+}
+
+/*Ссылка откл подчеркивания*/
+
+a {
+    text-decoration: none;
+}
+
+/*Реакция на ссылку*/
+
+a:hover {
+    font-weight: 700;
+}
+
+/*Иконки отступы*/
+
+.icon {
+    float: left; 
+    padding: 0.3em 0.4em 0 0;
+}
+
+/*Опыт работы оглавление*/
+
+.title-job {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0 0 0.2em 0;
+    font-size: 1.5em;
+    color: black;
+}
+
+/*Оглавления: Образование, Технические навыки и Ключевые навыки*/
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1em 0 0.2em 0;
+    font-size: 1.5em;
+    color: black;
+}
+
+/*Названия профессий*/
+
+.position {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.3em;
+    word-spacing: normal;
+    padding: 1em 0 0 0;
+    font-size: 1.2em;
+    color: rgb(49, 49, 49);
+}
+
+/*Текст пунктов*/
+
+p {
+    padding-top: 0.4em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    word-spacing: normal;
+    font-size: 1em;
+    color: rgb(70, 70, 70);
+}
+
+/*Наименования компаний и института*/
+
+.companyName .info {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.3em;
+    word-spacing: normal;
+    font-size: 1em;
+    color: #ff4700;
+}
+
+/*Реакция ссылки компаний и института на курсор*/
+
+.companyName .info:hover {
+    font-size: 1.05em;
+}
+
+/*Список*/
+
+.techSkillsList {
+    padding-left: 1.5em;
+}
+
+/*Текст в списке*/
+
+.techSkillsText {
+    font-style: normal;
+    font-weight: normal;
+    word-spacing: normal;
+    font-size: 1em;
+    color: rgb(70, 70, 70);
+}
+
+/*Стиль элементов в списке*/
+
+.techSkillsItem {
+    padding: 0.2em 0 0.2em 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1em;
+    color: #ff4700;
+}
+
+/*Проекты*/
+/*
+.projects {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 1em 0 0 0;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+*/
+
+
+/*Боковая панель*/
+
+.sidebarSection {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    padding: 1.2em;
+    background-color: #f8f8f8
+    /*background-color: #cbc8c1;*/
+}
+
+/*Фото*/
+
+.myPhoto {
+    align-items: center;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/*Мои фамилия и имя*/
+
+.myName {
+    padding: 1em 0 0 0;
+    text-align: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: inherit;
+    color: #39739b;
+}
+
+/*Моя профессия*/
+
+.myProfession {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1em 0 0 0;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+/*Секция контактов*/
+
+.contactsSection {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Город*/
+
+.city {
+    padding: 1em 0 0 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: inherit;
+    color: #39739b;
+}
+
+/*Дислокация*/
+
+.dislocation {
+    padding: 1em 0 0.8em 0;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    word-spacing: normal;
+    font-size: 1em;
+    color: rgb(70, 70, 70);
+}
+
+/*Контакты*/
+
+.contacts {
+    padding: 0.5em 0 0 0;
+}
+
+/*Контакт*/
+
+.contact {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 1em 0 0 0;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+/*Семейный статус*/
+
+.familyStatus {
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 1em 0 0 0;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+}
+
+/*Различное*/
+
+.sundry {
+    padding-top: 0.7em;
+}
+
+/*Предложение*/
+
+.offer {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    word-spacing: normal;
+    font-size: 1em;
+    color: rgb(70, 70, 70);
+}
+
+/*Ответ*/
+
+.answer {
+    font-weight: bold;
+    color: black;
+}
+
+/* Адаптация */
+@media (max-width: 768px) {
+    .mainSection {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 1em;
+        padding: 1em;
+    }
+
+    .sidebarSection {
+        width: auto;
+    }
+
+    .mainContentSection {
+        padding: 1.2em;
+        width: auto;
+    }
+    
+    .myPhoto {
+        max-width: 300px;
+    }
+
+}
