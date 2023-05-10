@@ -48,8 +48,12 @@ a:hover {
 /*Иконки отступы*/
 
 .icon {
-    float: left; 
-    padding: 0.3em 0.4em 0 0;
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    float: left;
+    padding: 0.1em 0.4em 0 0;
+    color: #ff4700;
 }
 
 /*Опыт работы оглавление*/
@@ -117,7 +121,7 @@ p {
 
 /*Список*/
 
-.techSkillsList {
+.softSkillsList {
     padding-left: 1.5em;
 }
 
@@ -134,6 +138,13 @@ p {
 /*Стиль элементов в списке*/
 
 .techSkillsItem {
+    padding: 0.2em 0 0.2em 0;
+    line-height: 1em;
+    color: #ff4700;
+    list-style: none;
+}
+
+.softSkillsItem {
     padding: 0.2em 0 0.2em 0;
     font-style: normal;
     font-weight: 600;
@@ -255,6 +266,35 @@ p {
 .contactsSection {
     display: flex;
     flex-direction: column;
+}
+
+/*Иконки контактов*/
+
+.iconWhatsapp {
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    float: left;
+    padding: 0.1em 0.4em 0 0;
+    color: #23c861;
+}
+
+.iconTelegram {
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    float: left;
+    padding: 0.1em 0.4em 0 0;
+    color: #27a0de;
+}
+
+.iconMail {
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    float: left;
+    padding: 0.1em 0.4em 0 0;
+    color: #ff4700;
 }
 
 /*Город*/
