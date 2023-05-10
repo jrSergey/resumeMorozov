@@ -210,6 +210,8 @@ p {
 
 .iconDiploma {
     color: #ff4700;
+    position: absolute;
+    display: inline;
 }
 
 /*Проекты*/
