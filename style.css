@@ -206,6 +206,12 @@ p {
     visibility: visible;   /* ОБЪЕКТ ВИДИМ */
 }
 
+/*Иконка на диплом*/
+
+.iconDiploma {
+    color: #ff4700;
+}
+
 /*Проекты*/
 /*
 .projects {
