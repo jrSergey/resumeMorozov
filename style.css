@@ -112,7 +112,7 @@ p {
 /*Реакция ссылки компаний и института на курсор*/
 
 .companyName .info:hover {
-    font-size: 1.05em;
+    text-decoration: underline;
 }
 
 /*Список*/
@@ -140,6 +140,59 @@ p {
     font-size: 1em;
     line-height: 1em;
     color: #ff4700;
+}
+
+/*Стиль кнопки*/
+
+.achievementLink {
+    padding: 0.4em 0 0.2em 0;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.3em;
+    word-spacing: normal;
+    font-size: 1em;
+    color: #ff4700;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/*Реакция кнопки при наведнии курсора*/
+
+.achievementLink:hover {
+    text-decoration: underline;
+}
+
+/*Стиль показа диплома*/
+
+.diploma {
+    opacity: 0;           /* ПРОЗРАЧНОСТИ НЕТ */
+    visibility: hidden;   /* ОБЪЕКТ НЕ ВИДИМ */
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    transition: all 1s ease;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+/*Размер картинки диплома*/
+
+.diplomaImg {
+    width: 70%;
+    height: 80%;
+}
+
+/*Активция показа диплома*/
+
+.diplomaActive {
+    opacity: 1;            /* ПРОЗРАЧНОСТЬ ЕСТЬ */
+    visibility: visible;   /* ОБЪЕКТ ВИДИМ */
 }
 
 /*Проекты*/

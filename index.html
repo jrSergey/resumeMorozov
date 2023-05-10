@@ -54,6 +54,17 @@
                     <h4 class="position"> "Электроэнергетика" <span class="companyName"> <a href="https://www.rii.edu.kz/ru/home-2/" target="_blank" class="info">РИИ</a> </span> </h4>
                     <p> Сентябрь 2012 - Июнь 2016 <span class="delimiter"> | </span> Казахстан </p>
                 </div>
+
+                <button class="achievementLink achievementLinkRii" href="#">
+                    Диплом бакалавра техники и технологий 
+                </button>
+            
+                <div class="diploma diplomaRii">
+            
+                    <img alt="diplom" class="diplomaImg" src="DiplomaMorozovSergei.jpg"/>
+                        
+                </div>
+
             </div>
 
             <!-----------------------  МОИ ТЕХНИЧЕСКИЕ НАВЫКИ  ----------------------------->
@@ -181,5 +192,41 @@
 
         </aside>
     </div>
+
+    <script>
+
+        // Активация картинки диплома
+
+        (() => {
+            /* Подключение к кнопке */
+            const diplomaBtn = document.querySelector(
+                ".achievementLinkRii"        
+            );
+
+            /* Подключение модуля */
+            const diploma = document.querySelector(
+                ".diplomaRii"                
+            );
+
+            /* Активация стиля  */
+            const openDiploma = (e) => {                 
+                diploma.classList.add("diplomaActive");
+            };
+
+            /* Отключение показа диплома */
+            const closeDiploma = (e) => {
+                const target = e.target;
+
+                if (!target.classList.contains("achievementLink")) {
+                    diploma.classList.remove("diplomaActive");
+                }
+            };
+
+            diplomaBtn.addEventListener("click", openDiploma);
+            document.addEventListener("click", closeDiploma);
+        })();
+        
+    </script>
+
 </body>
 </html>
