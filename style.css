@@ -85,7 +85,6 @@ a:hover {
     font-weight: bold;
     line-height: 1.3em;
     word-spacing: normal;
-    padding: 1em 0 0 0;
     font-size: 1.2em;
     color: rgb(49, 49, 49);
 }
@@ -122,7 +121,7 @@ p {
 /*Список*/
 
 .softSkillsList {
-    padding-left: 1.5em;
+    padding-left: 2em;
 }
 
 /*Текст в списке*/
@@ -133,12 +132,22 @@ p {
     word-spacing: normal;
     font-size: 1em;
     color: rgb(70, 70, 70);
+    padding-left: 0.3em;
+    
+}
+
+.softSkillsText {
+    font-style: normal;
+    font-weight: normal;
+    word-spacing: normal;
+    font-size: 1em;
+    color: rgb(70, 70, 70);
 }
 
 /*Стиль элементов в списке*/
 
 .techSkillsItem {
-    padding: 0.2em 0 0.2em 0;
+    padding: 0.2em 0 0.2em 0.3em;
     line-height: 1em;
     color: #ff4700;
     list-style: none;
@@ -215,8 +224,8 @@ p {
 }
 
 /*Проекты*/
-/*
-.projects {
+
+.projectSection {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -224,7 +233,19 @@ p {
     font-size: 1em;
     color: rgb(0, 0, 0);
 }
-*/
+
+.projectSection .info {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.3em;
+    word-spacing: normal;
+    font-size: 1em;
+    color: #ff4700;
+}
+
+.projectSection .info:hover {
+    text-decoration: underline;
+}
 
 
 /*Боковая панель*/
